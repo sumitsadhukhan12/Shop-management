@@ -1,0 +1,808 @@
+{
+  "users": [
+    {
+      "id": "user_admin_subodh",
+      "name": "Subodh Sadhukhan",
+      "email": "admin@sadhukhan.com",
+      "mobile": "9830012345",
+      "passwordHash": "$2b$10$whmlyH/uqX0bmKwxBEKyt./0u7.eiSDYbD6cwmAhS8IK6jdpPo8ZG",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2026-10-01T08:00:00.000Z",
+      "updatedAt": "2026-11-05T12:03:35.863Z",
+      "lastLoginAt": "2026-11-05T12:03:35.863Z"
+    },
+    {
+      "id": "user_staff_test",
+      "name": "Test Staff",
+      "email": "staff@sadhukhan.com",
+      "mobile": "9876543210",
+      "passwordHash": "$2b$10$whmlyH/uqX0bmKwxBEKyt.SeQyTYRTHH.snGOG47Hqyd2PjZrKxf.",
+      "role": "staff",
+      "status": "active",
+      "createdAt": "2026-10-05T09:00:00.000Z",
+      "updatedAt": "2026-11-05T11:56:58.003Z",
+      "lastLoginAt": "2026-11-05T11:56:58.003Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_1793879459606_ocq4",
+      "nameEn": "Oil & Lubricants",
+      "nameBn": "তেল ও লুব্রিকেন্ট",
+      "status": "active",
+      "createdBy": "user_admin_subodh",
+      "createdAt": "2026-11-05T11:50:59.606Z",
+      "updatedAt": "2026-11-05T11:50:59.606Z"
+    },
+    {
+      "id": "cat_1793879459606_pbe9",
+      "nameEn": "Spices & Grocery",
+      "nameBn": "মশলা ও মুদি",
+      "status": "active",
+      "createdBy": "user_admin_subodh",
+      "createdAt": "2026-11-05T11:50:59.606Z",
+      "updatedAt": "2026-11-05T11:50:59.606Z"
+    },
+    {
+      "id": "cat_1793879459606_uies",
+      "nameEn": "Toiletries & Personal Care",
+      "nameBn": "প্রসাধন ও যত্ন",
+      "status": "active",
+      "createdBy": "user_admin_subodh",
+      "createdAt": "2026-11-05T11:50:59.606Z",
+      "updatedAt": "2026-11-05T11:50:59.606Z"
+    },
+    {
+      "id": "cat_1793879459606_32h1",
+      "nameEn": "Stationery & Writing",
+      "nameBn": "খাতা ও স্টেশনারি",
+      "status": "active",
+      "createdBy": "user_admin_subodh",
+      "createdAt": "2026-11-05T11:50:59.606Z",
+      "updatedAt": "2026-11-05T11:50:59.606Z"
+    },
+    {
+      "id": "cat_1793879459607_mtnc",
+      "nameEn": "Snacks & Beverages",
+      "nameBn": "চা ও পানীয়",
+      "status": "active",
+      "createdBy": "user_admin_subodh",
+      "createdAt": "2026-11-05T11:50:59.607Z",
+      "updatedAt": "2026-11-05T11:50:59.607Z"
+    },
+    {
+      "id": "cat_1793879459607_2neu",
+      "nameEn": "Household & Cleaning",
+      "nameBn": "ঘরোয়া ও পরিষ্কারক",
+      "status": "active",
+      "createdBy": "user_admin_subodh",
+      "createdAt": "2026-11-05T11:50:59.607Z",
+      "updatedAt": "2026-11-05T11:50:59.607Z"
+    }
+  ],
+  "products": [
+    {
+      "nameEn": "Engine Oil 20W40 (Castrol Activ 1L)",
+      "nameBn": "ইঞ্জিন তেল ২০ডব্লিউ৪০ (ক্যাস্ট্রল ১ লিটার)",
+      "categoryId": "cat_1793879459606_ocq4",
+      "purchasePrice": 390,
+      "sellingPrice": 450,
+      "unit": "Bottle",
+      "stockStatus": "available",
+      "location": "Rack 3 / Shelf 2",
+      "active": true,
+      "createdBy": "user_admin_subodh",
+      "updatedBy": "user_admin_subodh",
+      "id": "prod_1793879459607_dxk2",
+      "createdAt": "2026-11-05T11:50:59.607Z",
+      "updatedAt": "2026-11-05T11:50:59.612Z"
+    },
+    {
+      "nameEn": "Engine Cleaner Spray (500ml)",
+      "nameBn": "ইঞ্জিন ক্লিনার স্প্রে (৫০০ মি.লি.)",
+      "categoryId": "cat_1793879459606_ocq4",
+      "purchasePrice": 175,
+      "sellingPrice": 220,
+      "unit": "Bottle",
+      "stockStatus": "available",
+      "location": "Rack 3 / Shelf 1",
+      "active": true,
+      "createdBy": "user_admin_subodh",
+      "updatedBy": "user_admin_subodh",
+      "id": "prod_1793879459608_33ew",
+      "createdAt": "2026-11-05T11:50:59.608Z",
+      "updatedAt": "2026-11-05T11:50:59.608Z"
+    },
+    {
+      "nameEn": "Engine Air Filter (Universal)",
+      "nameBn": "ইঞ্জিন এয়ার ফিল্টার (ইউনিভার্সাল)",
+      "categoryId": "cat_1793879459606_ocq4",
+      "purchasePrice": 130,
+      "sellingPrice": 180,
+      "unit": "Piece",
+      "stockStatus": "limited",
+      "location": "Rack 2 / Shelf 4",
+      "active": true,
+      "createdBy": "user_admin_subodh",
+      "updatedBy": "user_admin_subodh",
+      "id": "prod_1793879459608_rvk9",
+      "createdAt": "2026-11-05T11:50:59.608Z",
+      "updatedAt": "2026-11-05T11:50:59.608Z"
+    },
+    {
+      "nameEn": "Mustard Oil (Engine Brand 1L)",
+      "nameBn": "সরিষার তেল (ইঞ্জিন মার্কা ১ লিটার)",
+      "categoryId": "cat_1793879459606_pbe9",
+      "purchasePrice": 145,
+      "sellingPrice": 165,
+      "unit": "Litre",
+      "stockStatus": "available",
+      "location": "Shelf A1 / Row 2",
+      "active": true,
+      "createdBy": "user_admin_subodh",
+      "updatedBy": "user_admin_subodh",
+      "id": "prod_1793879459608_vju7",
+      "createdAt": "2026-11-05T11:50:59.608Z",
+      "updatedAt": "2026-11-05T11:50:59.608Z"
+    },
+    {
+      "nameEn": "Tata Salt (Iodized 1kg)",
+      "nameBn": "টাটা লবণ (১ কেজি)",
+      "categoryId": "cat_1793879459606_pbe9",
+      "purchasePrice": 24,
+      "sellingPrice": 28,
+      "unit": "Packet",
+      "stockStatus": "available",
+      "location": "Rack 1 / Shelf 1",
+      "active": true,
+      "createdBy": "user_admin_subodh",
+      "updatedBy": "user_admin_subodh",
+      "id": "prod_1793879459609_ix17",
+      "createdAt": "2026-11-05T11:50:59.609Z",
+      "updatedAt": "2026-11-05T11:50:59.609Z"
+    },
+    {
+      "nameEn": "Dettol Soap 125g",
+      "nameBn": "ডেটোল সাবান ১২৫ গ্রাম",
+      "categoryId": "cat_1793879459606_uies",
+      "purchasePrice": 38,
+      "sellingPrice": 45,
+      "unit": "Piece",
+      "stockStatus": "available",
+      "location": "Counter Display",
+      "active": true,
+      "createdBy": "user_admin_subodh",
+      "updatedBy": "user_admin_subodh",
+      "id": "prod_1793879459609_fpm0",
+      "createdAt": "2026-11-05T11:50:59.609Z",
+      "updatedAt": "2026-11-05T11:50:59.609Z"
+    },
+    {
+      "nameEn": "Classmate Long Exercise Notebook (120 Pages)",
+      "nameBn": "ক্লাসমেট লম্বা খাতা (১২০ পাতা)",
+      "categoryId": "cat_1793879459606_32h1",
+      "purchasePrice": 42,
+      "sellingPrice": 55,
+      "unit": "Piece",
+      "stockStatus": "available",
+      "location": "Shelf 4 / Left",
+      "active": true,
+      "createdBy": "user_admin_subodh",
+      "updatedBy": "user_admin_subodh",
+      "id": "prod_1793879459609_gha9",
+      "createdAt": "2026-11-05T11:50:59.609Z",
+      "updatedAt": "2026-11-05T11:50:59.609Z"
+    },
+    {
+      "nameEn": "Wheel 2in1 Detergent Powder 500g",
+      "nameBn": "হুইল গুঁড়ো সাবান ৫০০ গ্রাম",
+      "categoryId": "cat_1793879459607_2neu",
+      "purchasePrice": 32,
+      "sellingPrice": 38,
+      "unit": "Packet",
+      "stockStatus": "available",
+      "location": "Rack 1 / Bottom",
+      "active": true,
+      "createdBy": "user_admin_subodh",
+      "updatedBy": "user_admin_subodh",
+      "id": "prod_1793879459610_jlga",
+      "createdAt": "2026-11-05T11:50:59.610Z",
+      "updatedAt": "2026-11-05T11:50:59.610Z"
+    },
+    {
+      "nameEn": "Parachute Pure Coconut Hair Oil 200ml",
+      "nameBn": "প্যারাস্যুট খাঁটি নারকেল তেল ২০০ মি.লি.",
+      "categoryId": "cat_1793879459606_uies",
+      "purchasePrice": 82,
+      "sellingPrice": 95,
+      "unit": "Bottle",
+      "stockStatus": "available",
+      "location": "Shelf 2 / Top",
+      "active": true,
+      "createdBy": "user_admin_subodh",
+      "updatedBy": "user_admin_subodh",
+      "id": "prod_1793879459610_53va",
+      "createdAt": "2026-11-05T11:50:59.610Z",
+      "updatedAt": "2026-11-05T11:50:59.610Z"
+    },
+    {
+      "nameEn": "Brooke Bond Red Label Tea 250g",
+      "nameBn": "রেড লেবেল চা ২৫০ গ্রাম",
+      "categoryId": "cat_1793879459607_mtnc",
+      "purchasePrice": 115,
+      "sellingPrice": 130,
+      "unit": "Packet",
+      "stockStatus": "limited",
+      "location": "Counter Shelf",
+      "active": true,
+      "createdBy": "user_admin_subodh",
+      "updatedBy": "user_admin_subodh",
+      "id": "prod_1793879459610_c54t",
+      "createdAt": "2026-11-05T11:50:59.610Z",
+      "updatedAt": "2026-11-05T11:50:59.610Z"
+    },
+    {
+      "nameEn": "Bic Cello Butterflow Ball Pen (Blue)",
+      "nameBn": "সেলো বাটারফ্লো বল পেন (নীল)",
+      "categoryId": "cat_1793879459606_32h1",
+      "purchasePrice": 7.5,
+      "sellingPrice": 10,
+      "unit": "Piece",
+      "stockStatus": "available",
+      "location": "Counter Pen Stand",
+      "active": true,
+      "createdBy": "user_admin_subodh",
+      "updatedBy": "user_admin_subodh",
+      "id": "prod_1793879459611_20wp",
+      "createdAt": "2026-11-05T11:50:59.611Z",
+      "updatedAt": "2026-11-05T11:50:59.611Z"
+    },
+    {
+      "nameEn": "Vim Dishwash Bar 300g",
+      "nameBn": "ভিম বাসন মাজার সাবান ৩০০ গ্রাম",
+      "categoryId": "cat_1793879459607_2neu",
+      "purchasePrice": 26,
+      "sellingPrice": 32,
+      "unit": "Piece",
+      "stockStatus": "out_of_stock",
+      "location": "Rack 1 / Middle",
+      "active": true,
+      "createdBy": "user_admin_subodh",
+      "updatedBy": "user_admin_subodh",
+      "id": "prod_1793879459611_xf1b",
+      "createdAt": "2026-11-05T11:50:59.611Z",
+      "updatedAt": "2026-11-05T11:50:59.611Z"
+    }
+  ],
+  "priceHistory": [
+    {
+      "id": "ph_1793879459612_mk9i",
+      "productId": "prod_1793879459607_dxk2",
+      "productNameEn": "Engine Oil 20W40 (Castrol Activ 1L)",
+      "productNameBn": "ইঞ্জিন তেল ২০ডব্লিউ৪০ (ক্যাস্ট্রল ১ লিটার)",
+      "oldPrice": 420,
+      "newPrice": 450,
+      "changedBy": "Subodh Sadhukhan",
+      "changedAt": "2026-11-05T11:50:59.612Z"
+    },
+    {
+      "id": "ph_1793879459612_qp4u",
+      "productId": "prod_1793879459607_dxk2",
+      "productNameEn": "Engine Oil 20W40 (Castrol Activ 1L)",
+      "productNameBn": "ইঞ্জিন তেল ২০ডব্লিউ৪০ (ক্যাস্ট্রল ১ লিটার)",
+      "oldPrice": 450,
+      "newPrice": 420,
+      "changedBy": "Subodh Sadhukhan",
+      "changedAt": "2026-11-05T11:50:59.612Z"
+    },
+    {
+      "id": "ph_1793879459611_n25z",
+      "productId": "prod_1793879459611_xf1b",
+      "productNameEn": "Vim Dishwash Bar 300g",
+      "productNameBn": "ভিম বাসন মাজার সাবান ৩০০ গ্রাম",
+      "oldPrice": 32,
+      "newPrice": 32,
+      "changedBy": "Subodh Sadhukhan",
+      "changedAt": "2026-11-05T11:50:59.611Z"
+    },
+    {
+      "id": "ph_1793879459611_a3wz",
+      "productId": "prod_1793879459611_20wp",
+      "productNameEn": "Bic Cello Butterflow Ball Pen (Blue)",
+      "productNameBn": "সেলো বাটারফ্লো বল পেন (নীল)",
+      "oldPrice": 10,
+      "newPrice": 10,
+      "changedBy": "Subodh Sadhukhan",
+      "changedAt": "2026-11-05T11:50:59.611Z"
+    },
+    {
+      "id": "ph_1793879459610_tei6",
+      "productId": "prod_1793879459610_c54t",
+      "productNameEn": "Brooke Bond Red Label Tea 250g",
+      "productNameBn": "রেড লেবেল চা ২৫০ গ্রাম",
+      "oldPrice": 130,
+      "newPrice": 130,
+      "changedBy": "Subodh Sadhukhan",
+      "changedAt": "2026-11-05T11:50:59.610Z"
+    },
+    {
+      "id": "ph_1793879459610_ip3y",
+      "productId": "prod_1793879459610_53va",
+      "productNameEn": "Parachute Pure Coconut Hair Oil 200ml",
+      "productNameBn": "প্যারাস্যুট খাঁটি নারকেল তেল ২০০ মি.লি.",
+      "oldPrice": 95,
+      "newPrice": 95,
+      "changedBy": "Subodh Sadhukhan",
+      "changedAt": "2026-11-05T11:50:59.610Z"
+    },
+    {
+      "id": "ph_1793879459610_c9dd",
+      "productId": "prod_1793879459610_jlga",
+      "productNameEn": "Wheel 2in1 Detergent Powder 500g",
+      "productNameBn": "হুইল গুঁড়ো সাবান ৫০০ গ্রাম",
+      "oldPrice": 38,
+      "newPrice": 38,
+      "changedBy": "Subodh Sadhukhan",
+      "changedAt": "2026-11-05T11:50:59.610Z"
+    },
+    {
+      "id": "ph_1793879459609_18yt",
+      "productId": "prod_1793879459609_gha9",
+      "productNameEn": "Classmate Long Exercise Notebook (120 Pages)",
+      "productNameBn": "ক্লাসমেট লম্বা খাতা (১২০ পাতা)",
+      "oldPrice": 55,
+      "newPrice": 55,
+      "changedBy": "Subodh Sadhukhan",
+      "changedAt": "2026-11-05T11:50:59.609Z"
+    },
+    {
+      "id": "ph_1793879459609_23dn",
+      "productId": "prod_1793879459609_fpm0",
+      "productNameEn": "Dettol Soap 125g",
+      "productNameBn": "ডেটোল সাবান ১২৫ গ্রাম",
+      "oldPrice": 45,
+      "newPrice": 45,
+      "changedBy": "Subodh Sadhukhan",
+      "changedAt": "2026-11-05T11:50:59.609Z"
+    },
+    {
+      "id": "ph_1793879459609_i19d",
+      "productId": "prod_1793879459609_ix17",
+      "productNameEn": "Tata Salt (Iodized 1kg)",
+      "productNameBn": "টাটা লবণ (১ কেজি)",
+      "oldPrice": 28,
+      "newPrice": 28,
+      "changedBy": "Subodh Sadhukhan",
+      "changedAt": "2026-11-05T11:50:59.609Z"
+    },
+    {
+      "id": "ph_1793879459608_ak1w",
+      "productId": "prod_1793879459608_vju7",
+      "productNameEn": "Mustard Oil (Engine Brand 1L)",
+      "productNameBn": "সরিষার তেল (ইঞ্জিন মার্কা ১ লিটার)",
+      "oldPrice": 165,
+      "newPrice": 165,
+      "changedBy": "Subodh Sadhukhan",
+      "changedAt": "2026-11-05T11:50:59.608Z"
+    },
+    {
+      "id": "ph_1793879459608_es5h",
+      "productId": "prod_1793879459608_rvk9",
+      "productNameEn": "Engine Air Filter (Universal)",
+      "productNameBn": "ইঞ্জিন এয়ার ফিল্টার (ইউনিভার্সাল)",
+      "oldPrice": 180,
+      "newPrice": 180,
+      "changedBy": "Subodh Sadhukhan",
+      "changedAt": "2026-11-05T11:50:59.608Z"
+    },
+    {
+      "id": "ph_1793879459608_v5co",
+      "productId": "prod_1793879459608_33ew",
+      "productNameEn": "Engine Cleaner Spray (500ml)",
+      "productNameBn": "ইঞ্জিন ক্লিনার স্প্রে (৫০০ মি.লি.)",
+      "oldPrice": 220,
+      "newPrice": 220,
+      "changedBy": "Subodh Sadhukhan",
+      "changedAt": "2026-11-05T11:50:59.608Z"
+    },
+    {
+      "id": "ph_1793879459607_jje1",
+      "productId": "prod_1793879459607_dxk2",
+      "productNameEn": "Engine Oil 20W40 (Castrol Activ 1L)",
+      "productNameBn": "ইঞ্জিন তেল ২০ডব্লিউ৪০ (ক্যাস্ট্রল ১ লিটার)",
+      "oldPrice": 450,
+      "newPrice": 450,
+      "changedBy": "Subodh Sadhukhan",
+      "changedAt": "2026-11-05T11:50:59.607Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust_1793879459613_42v2",
+      "name": "Bikash Ghosh",
+      "mobile": "9831122334",
+      "notes": "Regular customer from Station Para",
+      "createdAt": "2026-11-05T11:50:59.613Z",
+      "updatedAt": "2026-11-05T11:50:59.614Z"
+    }
+  ],
+  "bills": [
+    {
+      "billDate": "2026-11-05T11:53:08.472Z",
+      "createdBy": "user_admin_subodh",
+      "createdByName": "Subodh Sadhukhan",
+      "items": [
+        {
+          "productId": "prod_1793879459609_ix17",
+          "productName": "Tata Salt (Iodized 1kg)",
+          "quantity": 2,
+          "unit": "Packet",
+          "unitPrice": 28,
+          "amount": 56
+        },
+        {
+          "productId": "prod_1793879459609_fpm0",
+          "productName": "Dettol Soap 125g",
+          "quantity": 1,
+          "unit": "Piece",
+          "unitPrice": 45,
+          "amount": 45
+        }
+      ],
+      "subtotal": 101,
+      "total": 101,
+      "paymentMethod": "upi",
+      "paidAmount": 101,
+      "dueAmount": 0,
+      "status": "completed",
+      "id": "bill_1793879588472_dmae",
+      "billNumber": "BILL-20261105-003",
+      "shopSnapshot": {
+        "shopName": "Sadhukhan Varities",
+        "adminName": "Subodh Sadhukhan",
+        "address": "Station Road, Barasat, North 24 Parganas, West Bengal 700124",
+        "mobile": "9830012345",
+        "logoUrl": "",
+        "upiQrUrl": "",
+        "upiId": "9830012345@upi"
+      },
+      "createdAt": "2026-11-05T11:53:08.472Z",
+      "updatedAt": "2026-11-05T11:53:08.472Z"
+    },
+    {
+      "billDate": "2026-11-05T09:15:00.000Z",
+      "createdBy": "user_admin_subodh",
+      "createdByName": "Subodh Sadhukhan",
+      "customerId": "cust_1793879459613_42v2",
+      "customerName": "Bikash Ghosh",
+      "customerMobile": "9831122334",
+      "items": [
+        {
+          "productId": "prod_1793879459607_dxk2",
+          "productName": "Engine Oil 20W40 (Castrol Activ 1L)",
+          "quantity": 3,
+          "unit": "Bottle",
+          "unitPrice": 450,
+          "amount": 1350
+        },
+        {
+          "productId": "p_salt",
+          "productName": "Tata Salt (Iodized 1kg)",
+          "quantity": 5,
+          "unit": "Packet",
+          "unitPrice": 28,
+          "amount": 140
+        },
+        {
+          "productId": "p_pen",
+          "productName": "Bic Cello Butterflow Ball Pen (Blue)",
+          "quantity": 1,
+          "unit": "Piece",
+          "unitPrice": 10,
+          "amount": 10
+        }
+      ],
+      "subtotal": 1500,
+      "total": 1500,
+      "paymentMethod": "cash",
+      "paidAmount": 1000,
+      "dueAmount": 500,
+      "status": "completed",
+      "id": "bill_1793879459614_0njj",
+      "billNumber": "BILL-20261105-002",
+      "shopSnapshot": {
+        "shopName": "Sadhukhan Varities",
+        "adminName": "Subodh Sadhukhan",
+        "address": "Station Road, Barasat, North 24 Parganas, West Bengal 700124",
+        "mobile": "9830012345",
+        "logoUrl": "",
+        "upiQrUrl": "",
+        "upiId": "9830012345@upi"
+      },
+      "createdAt": "2026-11-05T11:50:59.614Z",
+      "updatedAt": "2026-11-05T11:50:59.614Z"
+    },
+    {
+      "billDate": "2026-11-04T10:30:00.000Z",
+      "createdBy": "user_staff_test",
+      "createdByName": "Test Staff",
+      "customerName": "Ashok Mondal",
+      "customerMobile": "9748011223",
+      "items": [
+        {
+          "productId": "prod_1793879459607_dxk2",
+          "productName": "Engine Oil 20W40 (Castrol Activ 1L)",
+          "quantity": 2,
+          "unit": "Bottle",
+          "unitPrice": 450,
+          "amount": 900
+        },
+        {
+          "productId": "p_dettol",
+          "productName": "Dettol Soap 125g",
+          "quantity": 3,
+          "unit": "Piece",
+          "unitPrice": 45,
+          "amount": 135
+        }
+      ],
+      "subtotal": 1035,
+      "total": 1035,
+      "paymentMethod": "cash",
+      "paidAmount": 1035,
+      "dueAmount": 0,
+      "status": "completed",
+      "id": "bill_1793879459613_oupu",
+      "billNumber": "BILL-20261105-001",
+      "shopSnapshot": {
+        "shopName": "Sadhukhan Varities",
+        "adminName": "Subodh Sadhukhan",
+        "address": "Station Road, Barasat, North 24 Parganas, West Bengal 700124",
+        "mobile": "9830012345",
+        "logoUrl": "",
+        "upiQrUrl": "",
+        "upiId": "9830012345@upi"
+      },
+      "createdAt": "2026-11-05T11:50:59.613Z",
+      "updatedAt": "2026-11-05T11:50:59.613Z"
+    }
+  ],
+  "payments": [],
+  "settings": {
+    "shopName": "Sadhukhan Varities",
+    "adminName": "Subodh Sadhukhan",
+    "address": "Station Road, Barasat, North 24 Parganas, West Bengal 700124",
+    "mobile": "9830012345",
+    "upiId": "9830012345@upi",
+    "upiQrUrl": "",
+    "logoUrl": ""
+  },
+  "auditLogs": [
+    {
+      "id": "audit_1793879588472_auf69",
+      "action": "Create Bill",
+      "category": "bill",
+      "details": "Generated BILL-20261105-003 for total ₹101 (Paid: ₹101, Due: ₹0)",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:53:08.472Z"
+    },
+    {
+      "id": "audit_1793879459614_3zr6z",
+      "action": "Create Bill",
+      "category": "bill",
+      "details": "Generated BILL-20261105-002 for total ₹1500 (Paid: ₹1000, Due: ₹500)",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.614Z"
+    },
+    {
+      "id": "audit_1793879459613_5l9xp",
+      "action": "Create Bill",
+      "category": "bill",
+      "details": "Generated BILL-20261105-001 for total ₹1035 (Paid: ₹1035, Due: ₹0)",
+      "performedBy": "user_staff_test",
+      "performedByName": "Test Staff",
+      "timestamp": "2026-11-05T11:50:59.613Z"
+    },
+    {
+      "id": "audit_1793879459612_4mbut",
+      "action": "Update Product",
+      "category": "product",
+      "details": "Updated product \"Engine Oil 20W40 (Castrol Activ 1L)\"",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.612Z"
+    },
+    {
+      "id": "audit_1793879459612_w87kq",
+      "action": "Price Change",
+      "category": "price",
+      "details": "Changed price of \"Engine Oil 20W40 (Castrol Activ 1L)\": ₹420 → ₹450",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.612Z"
+    },
+    {
+      "id": "audit_1793879459612_dfl5y",
+      "action": "Update Product",
+      "category": "product",
+      "details": "Updated product \"Engine Oil 20W40 (Castrol Activ 1L)\"",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.612Z"
+    },
+    {
+      "id": "audit_1793879459612_lhx0x",
+      "action": "Price Change",
+      "category": "price",
+      "details": "Changed price of \"Engine Oil 20W40 (Castrol Activ 1L)\": ₹450 → ₹420",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.612Z"
+    },
+    {
+      "id": "audit_1793879459611_g219z",
+      "action": "Add Product",
+      "category": "product",
+      "details": "Added product \"Vim Dishwash Bar 300g\" at ₹32/Piece",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.611Z"
+    },
+    {
+      "id": "audit_1793879459611_r8cyi",
+      "action": "Add Product",
+      "category": "product",
+      "details": "Added product \"Bic Cello Butterflow Ball Pen (Blue)\" at ₹10/Piece",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.611Z"
+    },
+    {
+      "id": "audit_1793879459610_280uo",
+      "action": "Add Product",
+      "category": "product",
+      "details": "Added product \"Brooke Bond Red Label Tea 250g\" at ₹130/Packet",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.610Z"
+    },
+    {
+      "id": "audit_1793879459610_eqrml",
+      "action": "Add Product",
+      "category": "product",
+      "details": "Added product \"Parachute Pure Coconut Hair Oil 200ml\" at ₹95/Bottle",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.610Z"
+    },
+    {
+      "id": "audit_1793879459610_7c6sc",
+      "action": "Add Product",
+      "category": "product",
+      "details": "Added product \"Wheel 2in1 Detergent Powder 500g\" at ₹38/Packet",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.610Z"
+    },
+    {
+      "id": "audit_1793879459609_yv79o",
+      "action": "Add Product",
+      "category": "product",
+      "details": "Added product \"Classmate Long Exercise Notebook (120 Pages)\" at ₹55/Piece",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.609Z"
+    },
+    {
+      "id": "audit_1793879459609_zrzfl",
+      "action": "Add Product",
+      "category": "product",
+      "details": "Added product \"Dettol Soap 125g\" at ₹45/Piece",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.609Z"
+    },
+    {
+      "id": "audit_1793879459609_9z24w",
+      "action": "Add Product",
+      "category": "product",
+      "details": "Added product \"Tata Salt (Iodized 1kg)\" at ₹28/Packet",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.609Z"
+    },
+    {
+      "id": "audit_1793879459608_w4zr9",
+      "action": "Add Product",
+      "category": "product",
+      "details": "Added product \"Mustard Oil (Engine Brand 1L)\" at ₹165/Litre",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.608Z"
+    },
+    {
+      "id": "audit_1793879459608_mens5",
+      "action": "Add Product",
+      "category": "product",
+      "details": "Added product \"Engine Air Filter (Universal)\" at ₹180/Piece",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.608Z"
+    },
+    {
+      "id": "audit_1793879459608_m1r5p",
+      "action": "Add Product",
+      "category": "product",
+      "details": "Added product \"Engine Cleaner Spray (500ml)\" at ₹220/Bottle",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.608Z"
+    },
+    {
+      "id": "audit_1793879459607_oequj",
+      "action": "Add Product",
+      "category": "product",
+      "details": "Added product \"Engine Oil 20W40 (Castrol Activ 1L)\" at ₹450/Bottle",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.607Z"
+    },
+    {
+      "id": "audit_1793879459607_uz2z0",
+      "action": "Add Category",
+      "category": "product",
+      "details": "Created category \"Household & Cleaning\" / \"ঘরোয়া ও পরিষ্কারক\"",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.607Z"
+    },
+    {
+      "id": "audit_1793879459607_oc3b3",
+      "action": "Add Category",
+      "category": "product",
+      "details": "Created category \"Snacks & Beverages\" / \"চা ও পানীয়\"",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.607Z"
+    },
+    {
+      "id": "audit_1793879459606_h10w3",
+      "action": "Add Category",
+      "category": "product",
+      "details": "Created category \"Stationery & Writing\" / \"খাতা ও স্টেশনারি\"",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.606Z"
+    },
+    {
+      "id": "audit_1793879459606_9ot9w",
+      "action": "Add Category",
+      "category": "product",
+      "details": "Created category \"Toiletries & Personal Care\" / \"প্রসাধন ও যত্ন\"",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.606Z"
+    },
+    {
+      "id": "audit_1793879459606_orlx6",
+      "action": "Add Category",
+      "category": "product",
+      "details": "Created category \"Spices & Grocery\" / \"মশলা ও মুদি\"",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.606Z"
+    },
+    {
+      "id": "audit_1793879459606_iw8n8",
+      "action": "Add Category",
+      "category": "product",
+      "details": "Created category \"Oil & Lubricants\" / \"তেল ও লুব্রিকেন্ট\"",
+      "performedBy": "user_admin_subodh",
+      "performedByName": "Subodh Sadhukhan",
+      "timestamp": "2026-11-05T11:50:59.606Z"
+    }
+  ]
+}

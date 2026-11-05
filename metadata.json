@@ -1,0 +1,6 @@
+{
+  "name": "Sadhukhan Varities - Shop Management System",
+  "description": "Professional Shop Management & Instant Product Price Lookup System for Sadhukhan Varities. Features live bilingual English/Bengali search, stock status, point-of-sale billing, due payment tracking with proof photos, role-based admin/staff access, and Excel export/import.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
